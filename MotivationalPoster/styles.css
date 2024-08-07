@@ -1,0 +1,32 @@
+.outer {
+    width: 50%;
+    margin: 25%;
+}
+
+html{
+    background-color: black;
+}
+
+img{
+    width: 100%;
+    border: 5px solid white;
+}
+
+p
+{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2vw
+}
+
+h1{
+    color:white;
+    text-align: center;
+    text-transform:uppercase;
+    font-family: "Times New Roman", serif;
+    font-size: 4vw;
+    margin: 0px;
+    padding: 0px;
+}
