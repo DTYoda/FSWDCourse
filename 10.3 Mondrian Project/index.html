@@ -20,6 +20,12 @@
     But grid lines are transparent!
     */
 
+    .outer-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
     .grid-container {
       display: grid;
       grid-template-columns: 320px 198px 153px 50px;
@@ -41,6 +47,7 @@
 
     .blue {
       background-color: #004592;
+      border-bottom: 10px solid black;
     }
     .yellow {
       background-color: #F9D01E;
@@ -69,16 +76,18 @@
 </head>
 
 <body>
-  <div class="grid-container">
-    <div class="red"></div>
-    <div class="white" id="white1"></div>
-    <div class="white" id="white2"></div>
-    <div class="white" id="white3"></div>
-    <div class="blue"></div>
-    <div class="white" id="white4"></div>
-    <div class="white" id="white5"></div>
-    <div class="yellow"></div>
-    <div class="black"></div>
+  <div class="outer-container">
+    <div class="grid-container">
+      <div class="red"></div>
+      <div class="white" id="white1"></div>
+      <div class="white" id="white2"></div>
+      <div class="white" id="white3"></div>
+      <div class="blue"></div>
+      <div class="white" id="white4"></div>
+      <div class="white" id="white5"></div>
+      <div class="yellow"></div>
+      <div class="black"></div>
+    </div>
   </div>
 </body>
 
